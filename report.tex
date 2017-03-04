@@ -1,6 +1,6 @@
 %FILL THESE IN
 \def\mytitle{Coursework Report}
-\def\mykeywords{Graphics, Napier, Report, Coursework}
+\def\mykeywords{Graphics, Napier, Report, Wall, Coursework}
 \def\myauthor{Fraser Rae}
 \def\contact{40201144@live.napier.ac.uk}
 \def\mymodule{Computer Graphics (SET08116)}
@@ -70,75 +70,26 @@
 \begin{document}
 	\maketitle
 	\begin{abstract}
-		\lipsum[2]
-		MAIN GOALS.
+		The main goals of this project were to create a good-looking design for a border wall which uses all different textures, lights and if possible weather effects. The intention of this design is to visually convey how the finished project will look in the real-world.
+		
 	\end{abstract}
     
 	\textbf{Keywords -- }{\mykeywords}
+	\figuremacro{h}{Wall}{The Wall}{ - Up-To-Date project}{1.0}
+	
     %START FROM HERE
 	\section{Introduction}
-    \paragraph{Referencing}
-    You should cite References like this: \cite{Keshav}. The references are saved in an external .bib file, and will automatically be added ot the bibliography at the end once cited.
+    \paragraph{Design}
     
-    \figuremacro{h}{placeholder}{ImageTitle}{ - Some Descriptive Text}{1.0}
-	
-	\section{Formatting}
+    Progress thus far has focussed on texturing and developing suitable lighting. Since this will be used to visualize what the end-goal of the physical wall will look like in the end, accurate sizes of objects and their textures are a must. 
+    
+    \subsection{Main Issues Faced}
+    
+	\section{Related Work}
 	Some common formatting you may need uses these commands for \textbf{Bold Text}, \textit{Italics}, and \underline{underlined}.
-	\subsection{LineBreaks}
-	Here is a line
-    
-    Here is a line followed by a double line break.
-	This line is only one line break down from the above, Notice that latex can ignore this
-    
-    We can force a break \\ with the break operator.
-    
-	\subsection{Maths}
-    Embedding Maths is Latex's bread and butter    
-    
-    {\centering \Large \(
-        J = \begin{bmatrix}
-            \frac{\delta e}{\delta \theta _0}
-            \frac{\delta e}{\delta \theta _1}
-            \frac{\delta e}{\delta \theta _2}
-        \end{bmatrix}
-        = e_{current} - e_{target} 
-    \)\par}
 	
-	\subsection{Code Listing}
-    You can load segments of code from a file, or embed them directly.
-    
-\begin{lstlisting}[caption = Hello World! in c++]
-#include <iostream>
-
-int main() {
-    std::cout << "Hello World!" << std::endl;
-    std::cin.get();
-    return 0;
-}
-\end{lstlisting}
-
-\lstinputlisting[caption = Hello World! in python script]{./sourceCode/hello.py}
-    
-\subsection{PseudoCode}
-
-\begin{algorithm}[h]
-\For{$i = 0$ \KwTo $100$}{
- print\_number = true\;
-\If{i is divisible by 3}{
- print "Fizz"\;
- print\_number = false\;
-}
-\If{i is divisible by 5}{
- print "Buzz"\;
- print\_number = false\;
-}
-\If{print\_number}{
-    print i\;
-}
-print a newline\;
-}
-\caption{FizzBuzz}
-\end{algorithm}
+	\section{Implementaion}
+	
 	
 \section{Conclusion}	
 \bibliographystyle{ieeetr}
